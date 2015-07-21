@@ -1,0 +1,11 @@
+{
+  "name": "sifttt-move",
+  "version": "0.1.0",
+  "description": "Move files from one place to another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
+  "license": "MIT"
+}
