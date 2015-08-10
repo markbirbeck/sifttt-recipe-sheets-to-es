@@ -1,7 +1,7 @@
 {
-  "name": "sifttt-move",
+  "name": "sifttt-recipe-sheets-to-es",
   "version": "0.1.0",
-  "description": "Move files from one place to another.",
+  "description": "Recipe to index rows from a Google Sheets spreadsheet into ElasticSearch.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
