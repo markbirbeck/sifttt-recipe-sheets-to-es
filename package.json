@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "stream-google-spreadsheet": "^0.3.5",
+    "vinyl-elasticsearch": "^0.5.1"
+  }
 }
