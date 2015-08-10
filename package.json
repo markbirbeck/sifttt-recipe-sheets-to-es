@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Recipe to index rows from a Google Sheets spreadsheet into ElasticSearch.",
   "main": "index.js",
+  "keyword": [
+    "gulp",
+    "sifttt-recipe"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
