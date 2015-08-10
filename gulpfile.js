@@ -10,6 +10,19 @@ gulp.task('sheetsToEs', function() {
       privateKey: process.env.SPREADSHEET_PRIVATE_KEY
     }
   )
+    .map(function(file) {
+      var data = file.data;
+      var url =
+        (data.location || data.organizer || '') +
+        '/' +
+        data.type + '/' +
+        (data.legalName || data.name)
+          .toLowerCase()
+          .replace(/ /g, '-');
+
+      file.path = data.url = url;
+      return file;
+    })
     .pipe(es.dest({
         index: process.env.ELASTICSEARCH_INDEX
       },
