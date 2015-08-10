@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sheets = require('stream-google-spreadsheet');
 var es = require('vinyl-elasticsearch');
 
-gulp.task('sheets-to-es', function() {
+gulp.task('sheetsToEs', function() {
   return sheets.src(
     process.env.SPREADSHEET_KEYS.split(','),
     {
