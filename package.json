@@ -12,6 +12,9 @@
   },
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
   "license": "MIT",
+  "repository": "markbirbeck/sifttt-recipe-sheets-to-es",
+  "bugs": "https://github.com/markbirbeck/sifttt-recipe-sheets-to-es/issues",
+  "homepage": "https://github.com/markbirbeck/sifttt-recipe-sheets-to-es",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-util": "^3.0.6",
