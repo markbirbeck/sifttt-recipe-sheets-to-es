@@ -16,6 +16,7 @@ gulp.task('sheetsToEs', function() {
         (data.location || data.organizer || '') +
         '/' +
         data.type + '/' +
+        ((data.startDate) ? (data.startDate.replace(/-/g, '/') + '/') : '') +
         (data.legalName || data.name)
           .toLowerCase()
           .replace(/ /g, '-');
