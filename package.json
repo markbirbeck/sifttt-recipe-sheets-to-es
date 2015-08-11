@@ -1,6 +1,6 @@
 {
   "name": "sifttt-recipe-sheets-to-es",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Recipe to index rows from a Google Sheets spreadsheet into ElasticSearch.",
   "main": "index.js",
   "keyword": [
