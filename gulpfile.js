@@ -13,7 +13,7 @@ gulp.task('sheetsToEs', function() {
     .map(function(file) {
       var data = file.data;
       var url =
-        (data.location || data.organizer || '') +
+        (data.location || data.organization || '') +
         '/' +
         data.type + '/' +
         ((data.startDate) ? (data.startDate.replace(/-/g, '/') + '/') : '') +
